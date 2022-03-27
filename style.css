@@ -123,7 +123,7 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 .custom .options li .bar .bar-inner {
 	background: #f49703;
 	height: 100%;
-	width: 0;
+	width: 10%;
 	transition: width 1s;
 	position: relative;
 }
