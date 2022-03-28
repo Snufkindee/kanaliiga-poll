@@ -17,12 +17,12 @@
 }
 
 .custom .metaInfo {
-	background: #f49703;
+	color: white;
 	overflow: hidden;
 	padding: 0 10px;
 }
 .custom .total, .custom .duration {
-	background: #f49703;
+	color: white;
 	float: left;
 	width: 49%;
 	text-align: center;
@@ -32,7 +32,7 @@
 }
 .custom .total strong,
 .custom .duration strong {
-	color: #f49703;
+	color: white;
 	font-size: 20px;
 	display: block;
 }
@@ -66,9 +66,8 @@
 	position: relative;
 	border: 1px;
 	padding: 10px;
-	color: #f49703;
+	color: white;
 	text-overflow: ellipsis;
-	background: #f49703;
 	padding-right: 55px;
 	padding-left: 55px;
 	font-size: 15px;
