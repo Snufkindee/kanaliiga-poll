@@ -1,7 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Abel);
+@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@100;200;300;400;500;600;700;800;900&display=swap');
 .custom {
 	background: linear-gradient(0deg, rgb(244, 152, 9) 0%, rgb(225, 14, 20) 100%);
-	font-family: Abel;
+	font-family: 'Big Shoulders Text', 'Abel', sans-serif;
 	width: 400px;
 	opacity: 0;
 	transition: opacity 1s;
@@ -47,7 +48,7 @@
 }
 .custom.finished .options li.highest,
 .custom.removing .options li.highest {
-	color: #f49703;
+	color: #ffa;
 	opacity: 1;
 }
 
@@ -85,7 +86,8 @@
 	text-align: left;
 	font-weight: 600;
 	text-shadow: 0em 0em .15em #2b2523;
-	color: white;
+	color: #f49703;
+	border-bottom: 1px solid #f49703;
 }
 .custom .options li.help {
 	color: white;
@@ -131,7 +133,11 @@
 * Optional outer border
 */
 .custom .border {
-	/*border: 5px solid red;*/
+	border: 3px solid #2b2523;
+}
+
+.inOverlay.stream-poll .border {
+	border: 3px solid #2b2523;
 }
 
 
@@ -194,6 +200,11 @@
 	transform: translate(-50%, 0);
 }
 .custom.bottomRight {
+	bottom: 70px;
+	right: 30px;
+}
+
+.stream-poll.inOverlay.bottomRight {
 	bottom: 70px;
 	right: 30px;
 }
